@@ -11,39 +11,41 @@ body {
 .container {
 	width:80%;
 	margin: 0 auto;
+	position: relative;
 }
 
 header{
 	background: #292927;
+	position: relative;
 }
 
 .logo {
 	float: left;
 	padding:10px 0;
-
 }
 
 
 
 nav{
 	float: right;
-
+	width: 90%;
+	height: 110px;
 }
 
 nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-top: 85px;
 	font-size: 20px;
-
-
-
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 nav li{
 	display: inline-block;
-	margin-left: 220px;
+	margin-left: 40px;
 	padding top: auto;
 	position: relative;
 }
@@ -73,6 +75,10 @@ nav a: before {
 }
 */
 
+.banner {
+	padding: 2rem 0;
+}
+
 .smokegif {
 	position: relative;
     margin: auto;
@@ -85,7 +91,7 @@ nav a: before {
 .giftext{
 	color: white;
 	position: absolute;
-	top: 30px;
+	top: 0px;
 	left: 225px;
 	font-family: rig-solid-bold-outline, sans-serif;
 	font-weight: 700;
@@ -93,17 +99,10 @@ nav a: before {
 	font-size: 68px;
 }
 
+h1 {
+	margin-top: .35em;
+}
 
-
-
-
-
-
-
-
-
-
-/
 ul li{
 	display: inline-block;
 
